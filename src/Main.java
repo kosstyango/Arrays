@@ -9,7 +9,7 @@ public class Main {
         ArrayList<Integer> list = new ArrayList<Integer>();
 
         while (true) {
-            System.out.println("Введите число, пожалуйста");
+            System.out.println("Input a number, please");
             String s = reader.readLine();
             if (s.isEmpty()) break;
 
@@ -19,7 +19,7 @@ public class Main {
             else
                 list.add(0, x);      //вставка в начало
         }
-        System.out.println("Ваш массив:");
+        System.out.println("Result array is:");
         System.out.println(list);
     }
 }
